@@ -1,0 +1,27 @@
+<html>
+<head>
+
+
+<link rel="stylesheet" href="library/bootstrap.min.css">
+<link rel="stylesheet" href="customStyle/custom.css">
+<script src=" library/jquery.min.js"></script>
+<script src=" library/bootstrap.min.js"></script>
+<script src=" library/angular.min.js"></script>
+<script src=" library/angular-route.min.js"></script>
+
+<script src="main.controller.js"></script>
+<script src="main.userJson.js"></script>
+<script src="main.routing.js"></script>
+</head>
+<body ng-app="demoApp" style="background-color:blue" ng-controller="demoController">
+<div class="container" >
+
+<div class="empty"></div>  
+
+<!--<ui-view>-->
+<div ng-include="../login/login.html"></div>
+</body>
+
+
+
+</html>
